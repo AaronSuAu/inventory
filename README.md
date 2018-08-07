@@ -1,3 +1,7 @@
+First run to install the dependencies
+```
+composer install
+```
 To run the unit test, go to the root folder and run
 ```
 ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/OrderProcessingTests
